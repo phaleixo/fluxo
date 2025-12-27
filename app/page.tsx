@@ -32,7 +32,7 @@ export default function Page() {
                   <FinancialDetailsChart />
                 </div>
                 <div className="w-full bg-white rounded-lg shadow-sm">
-                  <QuickEntryForm />
+                  <QuickEntryForm showOptional={false} />
                 </div>
               </div>
 

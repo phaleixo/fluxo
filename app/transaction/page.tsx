@@ -17,7 +17,7 @@ export default function TransactionPage() {
             <div className="font-bold text-gray-900 text-lg mb-6">
               Tipo de Movimentação
             </div>
-            <QuickEntryForm />
+            <QuickEntryForm showOptional={true} />
           </div>
         </main>
       </div>

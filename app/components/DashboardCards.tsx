@@ -1,45 +1,39 @@
 // DashboardCards.tsx
 // Componente que exibe os cards de receitas, despesas, saldo e a receber
-// Utiliza Tailwind CSS e shadcn/ui
 
-import {
-  ArrowUpRight,
-  ArrowDownRight,
-  Wallet,
-  FileWarning,
-} from "lucide-react";
+import { ArrowUpRight, ArrowDownRight, Wallet, FileWarning } from "lucide-react";
 
 const cards = [
   {
     title: "Receitas (Mês)",
     value: "R$ 18.500,45",
     icon: ArrowUpRight,
-    gradient: "from-green-100 to-green-50",
-    iconColor: "text-green-700",
+    gradient: "from-green-400 to-green-200",
+    iconColor: "text-green-900",
     info: "↑ 12% vs mês anterior",
   },
   {
     title: "Despesas (Mês)",
     value: "R$ 4.250,00",
     icon: ArrowDownRight,
-    gradient: "from-rose-100 to-rose-50",
-    iconColor: "text-rose-700",
+    gradient: "from-red-400 to-red-200",
+    iconColor: "text-red-900",
     info: "↓ 5% vs mês anterior",
   },
   {
     title: "Saldo Total",
     value: "R$ 14.250,45",
     icon: Wallet,
-    gradient: "from-blue-100 to-blue-50",
-    iconColor: "text-blue-700",
+    gradient: "from-blue-400 to-blue-200",
+    iconColor: "text-blue-900",
     info: "Caixa positivo",
   },
   {
     title: "A Receber",
     value: "R$ 2.300,00",
     icon: FileWarning,
-    gradient: "from-yellow-100 to-yellow-50",
-    iconColor: "text-yellow-700",
+    gradient: "from-yellow-400 to-yellow-200",
+    iconColor: "text-yellow-900",
     info: "3 faturas vencendo",
   },
 ];
@@ -63,7 +57,7 @@ export function DashboardCards() {
           <div className="text-xl sm:text-2xl font-extrabold text-gray-900">
             {card.value}
           </div>
-          <div className="text-xs sm:text-sm text-gray-500 mt-2">
+          <div className="text-xs sm:text-sm text-gray-700 mt-2">
             {card.info}
           </div>
         </div>

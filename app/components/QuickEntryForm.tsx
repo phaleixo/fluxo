@@ -1,17 +1,20 @@
 // QuickEntryForm.tsx
 // Componente para o formulário de lançamento rápido de despesas/receitas
-// Utiliza Tailwind CSS e shadcn/ui
 "use client";
 
 import { useState } from "react";
 
-export function QuickEntryForm() {
+type QuickEntryFormProps = {
+  showOptional?: boolean;
+};
+
+export function QuickEntryForm({ showOptional = false }: QuickEntryFormProps) {
   const [type, setType] = useState("Despesa");
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-2 sm:p-4 w-full h-full border border-gray-200 flex flex-col justify-between">
       <div className="font-bold text-gray-900 text-base sm:text-lg mb-2 sm:mb-4">
-        Lançamento Rápido
+        {showOptional ? "Lançamentos" : "Lançamento Rápido"}
       </div>
       {/* Alternância entre Despesa e Receita */}
       <div className="flex gap-1 sm:gap-2 mb-2 sm:mb-4">
@@ -38,6 +41,34 @@ export function QuickEntryForm() {
       </div>
       {/* Formulário */}
       <form className="flex flex-col gap-2 sm:gap-3">
+        {showOptional && (
+          <>
+            <input
+              className="border rounded px-2 py-1.5 sm:px-3 sm:py-2 text-sm sm:text-base text-gray-400 font-medium placeholder-gray-400"
+              placeholder="Nome (opcional)"
+              name="nome"
+              type="text"
+            />
+            <input
+              className="border rounded px-2 py-1.5 sm:px-3 sm:py-2 text-sm sm:text-base text-gray-400 font-medium placeholder-gray-400"
+              placeholder="Endereço (opcional)"
+              name="endereco"
+              type="text"
+            />
+            <input
+              className="border rounded px-2 py-1.5 sm:px-3 sm:py-2 text-sm sm:text-base text-gray-400 font-medium placeholder-gray-400"
+              placeholder="Contato (telefone, opcional)"
+              name="contato"
+              type="tel"
+            />
+            <input
+              className="border rounded px-2 py-1.5 sm:px-3 sm:py-2 text-sm sm:text-base text-gray-400 font-medium placeholder-gray-400"
+              placeholder="Email (opcional)"
+              name="email"
+              type="email"
+            />
+          </>
+        )}
         <input
           className="border rounded px-2 py-1.5 sm:px-3 sm:py-2 text-sm sm:text-base text-gray-400 font-medium placeholder-gray-400"
           placeholder="CNPJ / CPF da Empresa"
