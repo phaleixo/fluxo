@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-
 <svg
-   width="800px"
-   height="800px"
-   viewBox="0 0 48 48"
-   fill="none"
+   width="30.747004"
+   height="23.451857"
+   viewBox="0 0 30.747004 23.451857"
+   id="flow"
    version="1.1"
-   id="svg4"
    sodipodi:docname="fluxo.svg"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs4" />
+     id="defs3" />
   <sodipodi:namedview
-     id="namedview4"
+     id="namedview3"
      pagecolor="#505050"
      bordercolor="#ffffff"
      borderopacity="1"
@@ -25,63 +21,36 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.615"
-     inkscape:cx="400.81301"
-     inkscape:cy="400"
+     inkscape:zoom="9.9734945"
+     inkscape:cx="46.272648"
+     inkscape:cy="31.784246"
      inkscape:window-width="1360"
      inkscape:window-height="703"
      inkscape:window-x="0"
      inkscape:window-y="29"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
-  <rect
-     width="48"
-     height="48"
-     fill="white"
-     fill-opacity="0.01"
-     id="rect1" />
-  <rect
-     x="6"
-     y="6"
-     width="14"
-     height="14"
-     fill="#2F88FF"
-     stroke="#000000"
-     stroke-width="4"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="rect2"
-     style="fill:#7f22fe;fill-opacity:1;stroke:#0e0d1f;stroke-opacity:1" />
-  <rect
-     x="6"
-     y="28"
-     width="14"
-     height="14"
-     fill="#2F88FF"
-     stroke="#000000"
-     stroke-width="4"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="rect3"
-     style="fill:#7f22fe;fill-opacity:1;stroke:#0e0d1f;stroke-opacity:1" />
-  <rect
-     x="28"
-     y="6"
-     width="14"
-     height="14"
-     fill="#2F88FF"
-     stroke="#000000"
-     stroke-width="4"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="rect4"
-     style="fill:#7f22fe;fill-opacity:1;stroke:#0e0d1f;stroke-opacity:1" />
-  <path
-     d="M28 28H42M28 28V42M28 28L42 42"
-     stroke="#000000"
-     stroke-width="4"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path4"
-     style="stroke:#0e0d1f;stroke-opacity:1" />
+     inkscape:current-layer="flow">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="30.747004"
+       height="23.451857"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g3"
+     transform="translate(-10.862703,-27.376696)">
+    <path
+       fill="#46b1ff"
+       d="m 21.044703,27.427552 a 11.3,11.3 0 0 1 1.21,-0.05 c 6.24,0 11.25,5.120001 11.297,11.560001 -0.042,1.993 -1.384,3.578 -3.21,3.578 -1.844,0 -3.44,-1.324 -3.44,-3.58 0,-2.583 -2.194,-4.623 -4.83,-4.623 -2.633,0 -4.53,2.212 -4.565,4.864 0,4.645 2.63,9.013 6.3,10.96 0.313,0.2 0.435,0.22 0.72,0.382 -0.817,0.23 -1.758,0.31 -2.274,0.31 -6.29,0 -11.39,-5.175 -11.39,-11.653 0,-6.01 4.42,-11.118001 10.18,-11.748001 z"
+       id="path2"
+       style="fill-rule:evenodd" />
+    <path
+       fill="#8ed4fe"
+       d="m 27.892703,27.624552 c 4.26,1.675 7.066,6.594001 7.103,11.548001 -0.057,2.766 -2.287,4.768 -4.65,4.768 -2.36,0 -4.808,-1.7 -4.808,-4.77 0,-2.048 -1.54,-3.44 -3.46,-3.44 -1.81,0 -3.19,1.494 -3.19,3.44 0,1.69 0.323,2.643 0.486,3.34 0.16,0.698 0.802,1.998 0.817,2.03 0.06,0.123 0.67,1.257 1.446,2.204 a 12.01,12.01 0 0 0 1.696,1.65 c 0.063,0.05 0.56,0.43 0.75,0.56 0.07,0.048 1.3,0.84 2.514,1.236 1.216,0.394 2.24,0.624 3.59,0.624 6.273,0 11.423,-5.165 11.423,-11.642 0.004,-6.478 -4.991,-11.786001 -11.358,-11.786001 -0.678,0 -1.713,0.12 -2.36,0.238 z"
+       id="path3"
+       style="fill-rule:evenodd" />
+  </g>
 </svg>

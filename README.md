@@ -1,18 +1,29 @@
-# 💸 Fluxo
+<div align="center">
+   <img src="./public/fluxo.svg" alt="Logo Fluxo" width="64" height="64" />
+</div>
+
+
 
 **Fluxo** é um painel financeiro moderno, responsivo e intuitivo, desenvolvido com Next.js, React 19, Tailwind CSS e shadcn/ui. O objetivo é facilitar o controle de receitas, despesas, saldo e relatórios financeiros de forma visual e prática.
+
+<div align="center">
+   <img src="./public/screenshot.png" alt="Screenshot do Fluxo" style="border-radius:12px;max-width:100%;margin:24px 0;box-shadow:0 2px 16px #0001;" />
+</div>
 
 ---
 
 ## ✨ Funcionalidades
 
 - **Dashboard Resumido:** Cards com receitas, despesas, saldo e valores a receber, com indicadores de variação.
-- **Gráfico Financeiro:** Visualização de receitas e despesas por período (placeholder para integração futura com bibliotecas de gráficos).
+- **Gráfico Financeiro:** Visualização de receitas e despesas por período.
 - **Lançamento Rápido:** Formulário para adicionar receitas ou despesas de forma ágil.
 - **Tabela de Últimos Lançamentos:** Visualização dos lançamentos mais recentes, com status e categorias.
 - **Relatórios Financeiros:** Geração de relatórios detalhados e exportação em PDF.
-- **Navegação Lateral:** Sidebar responsiva com acesso rápido ao dashboard, transações, relatórios e clientes.
+- **Navegação Lateral:** Sidebar responsiva com destaque para a página atual.
+- **Novo Ícone:** Logo SVG exclusivo na interface e README.
 - **Design Responsivo:** Layout adaptado para desktop e mobile, com experiência fluida.
+- **Destaque de Página Ativa:** O item selecionado no menu lateral fica com fundo cinza e barra animada.
+- **Screenshot:** Veja abaixo a tela principal do app.
 
 ---
 
@@ -54,7 +65,7 @@
    ```
 
 4. **Acesse:**  
-    [http://localhost:3000](http://localhost:3000)
+   [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -84,11 +95,11 @@ public/
 ## 🖥️ Principais Componentes
 
 - **DashboardCards:** Cards de resumo financeiro.
-- **FinancialDetailsChart:** Gráfico de receitas/despesas (placeholder).
+- **FinancialDetailsChart:** Gráfico de receitas/despesas.
 - **QuickEntryForm:** Formulário de lançamento rápido.
 - **RecentEntriesTable:** Tabela de lançamentos recentes.
-- **Sidebar:** Menu lateral de navegação.
-- **Header:** Cabeçalho com informações do usuário.
+- **Sidebar:** Menu lateral de navegação com destaque da página ativa.
+- **Header:** Cabeçalho com logo SVG, nome do app e usuário.
 
 ---
 
