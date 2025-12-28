@@ -1,5 +1,5 @@
 // Header.tsx
-import { Menu } from "lucide-react";
+import Image from "next/image";
 
 type HeaderProps = {
   onToggleSidebar: () => void;
@@ -9,8 +9,14 @@ export function Header({}: HeaderProps) {
   return (
     <header className="w-full flex items-center justify-between px-2 sm:px-4 py-3 border-b border-gray-200 bg-white shadow-md">
       <div className="flex items-center gap-1">
-        <Menu className="w-5 h-5 text-violet-700" />
-        <h1 className="text-lg font-bold text-gray-900 tracking-tight ml-1">
+        <h1 className="text-2xl font-bold text-gray-900 ml-1 flex items-center gap-2">
+          <Image
+            src="/fluxo.svg"
+            alt="Fluxo Logo"
+            width={32}
+            height={32}
+            className="inline-block"
+          />
           Fluxo
         </h1>
       </div>

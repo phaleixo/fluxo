@@ -40,7 +40,7 @@ export function RecentEntriesTable() {
           Últimos Lançamentos
         </div>
         <a
-          href="#"
+          href="/financialReport"
           className="text-violet-700 text-xs sm:text-sm font-semibold hover:underline"
         >
           Ver todos
