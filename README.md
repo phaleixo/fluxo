@@ -1,5 +1,6 @@
 <div align="center">
    <img src="./public/fluxo.svg" alt="Logo Fluxo" width="64" height="64" />
+   <h1>Fluxo</h1>
 </div>
 
 
@@ -22,8 +23,8 @@
 - **Navegação Lateral:** Sidebar responsiva com destaque para a página atual.
 - **Novo Ícone:** Logo SVG exclusivo na interface e README.
 - **Design Responsivo:** Layout adaptado para desktop e mobile, com experiência fluida.
-- **Destaque de Página Ativa:** O item selecionado no menu lateral fica com fundo cinza e barra animada.
-- **Screenshot:** Veja abaixo a tela principal do app.
+
+
 
 ---
 
