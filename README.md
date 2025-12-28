@@ -5,7 +5,6 @@
     <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff" />
     <img src="https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb" />
     <img src="https://img.shields.io/badge/Tailwind-06b6d4?logo=tailwindcss&logoColor=fff" />
-    
     <img src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=fff" />
   </p>
 </div>
