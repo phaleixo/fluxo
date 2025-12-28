@@ -12,7 +12,7 @@
 
 
 **Fluxo** é um aplicativo financeiro moderno, modular, responsivo e intuitivo, desenvolvido com Next.js, React 19, Tailwind CSS e shadcn/ui. O objetivo é facilitar o controle de receitas, despesas, saldo e relatórios financeiros de forma visual e prática.
-O aplicativo pode ser extendido com modulos para a necessidade do usuário. 
+O aplicativo pode ser extendido com módulos para a necessidade do usuário. 
 
 <div align="center">
    <img src="./public/screenshot.png" alt="Screenshot do Fluxo" style="border-radius:12px;max-width:100%;margin:24px 0;box-shadow:0 2px 16px #0001;" />
