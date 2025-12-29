@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./public/fluxo.svg" alt="Logo Fluxo" width="64" height="64" />
-  <h1>💸 Fluxo</h1>
+  <h1>Fluxo</h1>
   <p>
     <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff" />
     <img src="https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb" />
