@@ -7,7 +7,7 @@ export default function MobileTabBarWrapper({
 }) {
   return (
     <>
-      {children}
+      <div className="pb-16 md:pb-0">{children}</div>
       <TabBar />
     </>
   );
