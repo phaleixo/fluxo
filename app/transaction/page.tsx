@@ -9,7 +9,9 @@ export default function TransactionPage() {
     <div className="flex flex-col min-h-screen bg-gray-100">
       <Header onToggleSidebar={() => {}} />
       <div className="flex flex-1">
-        <Sidebar />
+        <Sidebar isOpen={false} onClose={function (): void {
+          throw new Error("Function not implemented.");
+        } } />
         <main className="flex-1 px-2 sm:px-8 py-4">
           <div className="mb-4 text-xs text-gray-400">
             Home / <span className="text-gray-500">Transações</span> /{" "}
